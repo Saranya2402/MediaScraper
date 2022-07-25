@@ -7,5 +7,6 @@ docker build -t <name of the image>
 docker run -p 49160:5000 -d <your username>/node-web-app
 
 #database used mySQL db
+  Create a database in mySql and change the name of the db in server/dbConfig.js.
 
 #For better performance, to scale the scraper to handle ~5000 url at a time - proxies can be used  in the page.launch section of the scraper. so that multiple users can use one proxy.
